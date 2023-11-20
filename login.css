@@ -1,0 +1,75 @@
+body{
+    /* font-family: 'Dancing Script', cursive; */
+    margin: 0;
+    padding: 0;
+    background-color: goldenrod;
+}
+
+.pinky,a{
+    display: block;
+}
+
+
+#cont{
+    display: flex;
+    justify-content: center;      
+    /* for horizontally center */
+    align-items: center;
+    /* for vertical align */
+    height: 100vh;
+    /* important attribute */
+}
+
+form{
+    background-color: aqua;
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+form h2{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+form label{
+    color: red;
+    font-size: 20px;
+}
+form .paisa{
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+
+#btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 30%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+#cancel{
+    background-color: red;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+
+/* for logo changes */
+.fa-user-secret{
+    position: absolute;
+    top: 60%;
+    left: 2.3%
+}
+#user{
+    position: relative;
+}
